@@ -112,4 +112,4 @@ object arbol {
 	method quitarVoluminosos(){
 		elementos = elementos.filter({ elemento => not  elemento.voluminosidad() })
 	}
-}
+(_,_)}
